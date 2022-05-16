@@ -40,7 +40,7 @@ spec:
           producers:
           - "application/json"
           parameters:
-          - in: "name"
+          - name: "body"
             email: "body"
             description: "user information"
             required: true
