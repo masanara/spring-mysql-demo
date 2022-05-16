@@ -4,7 +4,8 @@ metadata:
   name: spring-mysql-demo
   labels:
     apps.tanzu.vmware.com/workload-type: web
-    app.kubernetes.io/part-of: spring-mysql-demo
+    app.kubernetes.io/part-of: demo-app
+    tier: apptier
 spec:
   params:
   - name: annotations

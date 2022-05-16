@@ -6,7 +6,7 @@ metadata:
   tags:
     - java
   annotations:
-    'backstage.io/kubernetes-label-selector': 'app=demo-app,tier=apptier'
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=demo-app,tier=apptier'
     'backstage.io/techdocs-ref': dir:.
 spec:
   type: service
